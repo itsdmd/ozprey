@@ -500,7 +500,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "./fab",
+      "plot": "./gerber",
       "pos_files": "",
       "specctra_dsn": "osprey_rev_a.dsn",
       "step": "../ozprey_case/osprey_pcb.step",

@@ -118,7 +118,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "./fab")
+			(outputdirectory "./gerber")
 		)
 	)
 	(net 0 "")
@@ -31244,7 +31244,7 @@
 				(width 0.381)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "Dwgs.User")
 			(uuid "9a833dfb-4770-481f-b9b7-68714282f844")
 		)
 		(fp_line
@@ -31254,88 +31254,8 @@
 				(width 0.381)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "Dwgs.User")
 			(uuid "7aae234a-ad04-4e45-adb7-d5646b3e96e0")
-		)
-		(fp_line
-			(start -17.78 -8.89)
-			(end -17.78 8.89)
-			(stroke
-				(width 0.381)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "e3cacb0c-8ad1-473c-873a-92e7dddf2008")
-		)
-		(fp_line
-			(start 15.24 -8.89)
-			(end -17.78 -8.89)
-			(stroke
-				(width 0.381)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "692c201d-21e9-463d-bcea-85ee2be73e8c")
-		)
-		(fp_line
-			(start -17.78 8.89)
-			(end -15.24 8.89)
-			(stroke
-				(width 0.381)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b5d37911-5ab7-4204-8158-fdc8b89cf2eb")
-		)
-		(fp_line
-			(start -15.24 8.89)
-			(end 15.24 8.89)
-			(stroke
-				(width 0.381)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0a3e4a6a-f49e-4142-b095-282cc9472747")
-		)
-		(fp_line
-			(start 15.24 8.89)
-			(end 15.24 -8.89)
-			(stroke
-				(width 0.381)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7e4916af-052c-4b7b-a4b8-3dbe7875306e")
-		)
-		(fp_line
-			(start -17.78 -8.89)
-			(end -17.78 8.89)
-			(stroke
-				(width 0.381)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c8a4bf62-5ddb-4eff-812d-3eeb0e638fd3")
-		)
-		(fp_line
-			(start -15.24 -8.89)
-			(end -17.78 -8.89)
-			(stroke
-				(width 0.381)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "37d43d1e-2d27-442e-ab8f-429dbd760725")
-		)
-		(fp_line
-			(start 15.24 -8.89)
-			(end -15.24 -8.89)
-			(stroke
-				(width 0.381)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "673e856d-56bb-47bf-a4ff-813ccfc2a1f2")
 		)
 		(fp_line
 			(start -19.304 3.81)
@@ -31376,6 +31296,26 @@
 			)
 			(layer "Dwgs.User")
 			(uuid "0903f2ad-bc7e-4c80-9a64-36439e566801")
+		)
+		(fp_line
+			(start -17.78 -8.89)
+			(end -17.78 8.89)
+			(stroke
+				(width 0.381)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "e3cacb0c-8ad1-473c-873a-92e7dddf2008")
+		)
+		(fp_line
+			(start 15.24 -8.89)
+			(end -17.78 -8.89)
+			(stroke
+				(width 0.381)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "692c201d-21e9-463d-bcea-85ee2be73e8c")
 		)
 		(fp_text user "GND"
 			(at -11.43 -5.454667 0)
@@ -31786,13 +31726,13 @@
 			)
 		)
 		(fp_text user "nice!nano"
-			(at 13.462 -0.254 0)
+			(at -2.6 0 0)
 			(layer "F.SilkS")
 			(uuid "7bb2a96d-2fe3-4408-a8f5-a1061a40f90f")
 			(effects
 				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
+					(size 1 1)
+					(thickness 0.25)
 				)
 			)
 		)
@@ -32849,7 +32789,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/a8107aef-1ca3-4cef-8214-0ec5498e4724")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -33136,7 +33076,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/8c5a2734-0227-42e6-bca2-ac1827efc56f")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -33423,7 +33363,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/9c5a4810-614a-43b1-b40c-c5ee40acf577")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -33710,7 +33650,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/792ff194-50b2-48c6-942f-8428e09ea576")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -33997,7 +33937,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/149a731f-f0b2-4315-9920-0540bfd30a04")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -34284,7 +34224,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/cf1d44d5-fbb5-41e1-9fd7-f3b217af6d4f")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -34571,7 +34511,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/c6b3af8f-493b-434e-862d-37355b7bac55")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -34858,7 +34798,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/def15cc3-74fb-4b2d-9ccd-c4dd5ba81c20")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -35145,7 +35085,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/f4ae2453-9e87-451f-8631-31f48db924fe")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -35432,7 +35372,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/1d18ae68-ff27-41f8-80af-1a24f3c2e7a1")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -35719,7 +35659,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/2d40190c-c13e-4f8c-be42-4dd0d11b1afa")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -36006,7 +35946,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/80416d69-723c-43ad-8da1-ad30c8389a18")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -36293,7 +36233,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/524bf31b-9d6a-4503-ab54-b77a202158a3")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -36580,7 +36520,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/95a32677-285e-4443-8238-48f84380e0e6")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -36867,7 +36807,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/5dd5fbfe-39fd-489a-a8d8-f6f53deaff28")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -37154,7 +37094,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/0c142a0c-bab2-43b1-ae0f-5d42e37bc024")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -37441,7 +37381,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/42813a13-c0cb-47ff-9f55-40a9c15dc5c6")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -37728,7 +37668,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/e7196d18-b3f1-480c-b2cf-f0f46ca13c09")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -38015,7 +37955,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/342b5d0f-4e61-4284-b3c4-6b46052770a4")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -38302,7 +38242,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/3433c485-935a-4e27-9621-12c085e96f2d")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -38589,7 +38529,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/6fd62714-9fbd-4450-b054-d78de486e4f5")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -38901,7 +38841,7 @@
 			(uuid "6a0c8e20-8592-47c4-83e2-6bd66e7c2f40")
 		)
 		(fp_text user "Battery"
-			(at -3.987088 0 360)
+			(at -3.987088 0 0)
 			(layer "B.SilkS")
 			(uuid "0ae8a61e-0048-48ad-acb2-4bffd48b06b9")
 			(effects
@@ -38913,7 +38853,7 @@
 			)
 		)
 		(fp_text user "(-)"
-			(at 1.8 2.5 360)
+			(at 1.8 2.5 0)
 			(layer "B.SilkS")
 			(uuid "325eec9d-510d-4305-9be3-e325a8fa34a9")
 			(effects
@@ -38925,7 +38865,7 @@
 			)
 		)
 		(fp_text user "(+)"
-			(at -1.8 2.5 360)
+			(at -1.8 2.5 0)
 			(layer "B.SilkS")
 			(uuid "94bc363e-8dd1-47f9-a473-8ef4e376c67a")
 			(effects
@@ -39050,7 +38990,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/dfd80a69-b588-40fc-804d-83720db17459")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -39337,7 +39277,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/23fa30a5-6936-4225-a874-8b1e29dd020e")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -39624,7 +39564,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/210f68dc-1807-4134-bcd1-ac3be0e25e5f")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -39911,7 +39851,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/747a1ce7-e8e3-4301-8d13-329f1a6cd0b0")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -40198,7 +40138,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/a48c728a-cdb6-450a-951d-6d973506ad51")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -40485,7 +40425,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/e6500e4e-85a5-4c23-be1f-5691fbfe5845")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -40772,7 +40712,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/ebd149b5-54db-4b11-af03-92cb3cf85f9a")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -41059,7 +40999,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/5756bece-fb70-4b5e-a7bd-136eeb329806")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -41346,7 +41286,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/f2198ade-89f0-44d5-a573-2bf3f34edfc8")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -41633,7 +41573,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/10b30d78-7dcd-431b-8bf3-09785feaac03")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -41920,7 +41860,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/e155897e-e1ed-4c0e-9b38-778a5051f531")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -42207,7 +42147,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/3881e3d7-c24e-4838-9482-f79028420133")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -42494,7 +42434,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/d76c5b37-1d1f-497a-8659-ef0730b0b240")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -42781,7 +42721,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/caac0ddd-b0df-468a-a453-bf25c4d6f953")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -43068,7 +43008,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/e7d05337-721a-4813-ba73-45622c7c8aae")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -43355,7 +43295,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/5664edf1-dfbf-4215-ac5a-ee59d0d67c56")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -43642,7 +43582,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/ce782c85-93fc-462d-a182-d5f6e7d76a67")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -43929,7 +43869,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/6cd60f50-a687-4a7f-bda6-d3b3e3ae9372")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -44216,7 +44156,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/85e8df97-4691-4ef7-b059-eab588c67941")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -44503,7 +44443,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/6736465c-69e8-45c6-89ef-519175c30a34")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
@@ -44790,7 +44730,7 @@
 		(path "/06d5bcef-cdd2-4b15-b931-2677680653c2/93397224-5eed-4e00-9f21-f60b76c22b8b")
 		(sheetname "Matrix")
 		(sheetfile "sheet_matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.01 -0.85)
 			(end 1.25 -0.85)
