@@ -8,7 +8,7 @@
 -   Remove middle cutouts, simplify top edge, widen the split gap to accomodate changed switch footprint.
     -   This made the board incompatible with the original case and plate. I'm currently working on a new case and plate design.
 -   Add SMD "Reset" push button (TL3342).
--   Add onboard M2 mounting holes (previously on the case & plate).
+-   Adjust onboard M2 mounting holes' position.
 -   Replace onboard JST connector with a battery connector pads.
 
 ## Thanks
