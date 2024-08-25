@@ -1,4 +1,4 @@
-525231333530489
+532129751736256
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -91727,6 +91727,34 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
+Switch
+KG1
+TL3330AF130QG-3
+Switch
+0
+4
+4
+Switch
+SK12D07VG4
+
+
+0
+5
+5
+Switch
+TL3330AF130QG
+TL3330AF130QG-3
+Switch
+0
+4
+4
+Switch
+TL3340AF160QG
+
+
+0
+5
+5
 Symbol
 CE-Logo_8.5x6mm_SilkScreen
 CE marking

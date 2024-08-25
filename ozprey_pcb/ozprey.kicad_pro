@@ -503,7 +503,7 @@
       "plot": "./fab",
       "pos_files": "",
       "specctra_dsn": "osprey_rev_a.dsn",
-      "step": "C:/Users/volod/Desktop/osprey_rev promicro.step",
+      "step": "../ozprey_case/osprey_pcb.step",
       "svg": "",
       "vrml": ""
     },
