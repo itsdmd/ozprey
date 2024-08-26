@@ -6,18 +6,21 @@
 
 ## Changes compared to the original Osprey
 
--   Support **both hotswap and soldered** Choc v1 switches. This led to complete rework of the trace routing.
+-   Support **both hotswap and soldered** Choc v1 switches.
 -   Remove cutout under MCU to allow more flexible PCB trace routing.
--   Remove battery holder cutout, replace onboard JST connector with a battery connector pads.
-    -   These changes were made since I want to use a large LiPo battery placed under the PCB.
--   simplify top edge, widen the split gap to accomodate changed switch footprint.
-    -   This made the board incompatible with the original case and plate. I'm currently working on a new case and plate design.
--   Add SMD "Reset" push button (TL3342).
+-   Remove battery holder cutout, replace onboard battery connector socket with battery connector pads.
+    -   These changes were made since I want to use a large Li-Po battery placed under the PCB.
+-   Simplify top edge, widen the split gap to accomodate changed switch footprint.
+-   Replace power and reset switch footprint. Schematics for both can be found inside [img](./img) folder.
 -   Adjust onboard M2 mounting holes' position.
+
+These changes made the board incompatible with the original case & plate. You can get the [.STEP file](./ozprey_case/osprey_pcb.step) and design your own case & plate.
 
 ## Thanks
 
-Huge thanks to the [ebastler](https://github.com/ebastler), author of the [original project](https://github.com/ebastler/osprey) for the inspiration and design, and [kapee1](https://github.com/kapee1) for the nice!nano implementation with the [osprey-remix](https://github.com/kapee1/osprey-remix).
+Huge thanks to [ebastler](https://github.com/ebastler), author of the [original project](https://github.com/ebastler/osprey) for the inspiration and design, and [kapee1](https://github.com/kapee1) for the nice!nano implementation with the [osprey-remix](https://github.com/kapee1/osprey-remix).
+
+The keyboard switch footprint was from [daprice/keyswitches.pretty](https://github.com/daprice/keyswitches.pretty).
 
 ## Disclaimer
 
