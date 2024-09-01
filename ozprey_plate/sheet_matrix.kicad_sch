@@ -1,0 +1,3297 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b7b4651d-e47a-495e-b617-6fcc8aed919f")
+	(paper "A4")
+	(title_block
+		(title "Matrix")
+		(date "2024-08-25")
+		(rev "1.0")
+		(company "itsdmd")
+	)
+	(lib_symbols
+		(symbol "Switch:SW_Push_45deg"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 3.048 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push_45deg"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_45deg_0_1"
+				(circle
+					(center -1.1684 1.1684)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.54) (xy 2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 2.032 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.143 -1.1938)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 116.205 66.675 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04185402-4936-4f76-82dc-3c02e8543b1f")
+		(property "Reference" "SW19"
+			(at 122.555 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 122.555 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 116.205 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.205 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.205 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fb3b592-012e-4010-af2b-fedae317c7f9")
+		)
+		(pin "2"
+			(uuid "b6ca894b-0fbf-433e-9a83-334faabd2c7f")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 154.94 66.675 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0482a858-edf5-4c5f-8d25-50ddfaa1f462")
+		(property "Reference" "SW23"
+			(at 161.29 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 161.29 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 154.94 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc81f964-70b7-4543-970c-8486c21bd7dd")
+		)
+		(pin "2"
+			(uuid "6efbb766-4d3d-4042-b202-68717771b2b1")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW23")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 228.6 44.45 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "056595eb-98a9-42a2-a551-2fe8dba5e24e")
+		(property "Reference" "SW37"
+			(at 234.95 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 234.95 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 228.6 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7713e58-2aab-4044-a723-5c94bcfa95ae")
+		)
+		(pin "2"
+			(uuid "732aea8d-3709-4496-83d6-65f4c529fdb6")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW37")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 173.355 66.675 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "056a7772-a6c4-4a64-a4ee-bbcd4643f8cd")
+		(property "Reference" "SW27"
+			(at 179.705 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 179.705 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 173.355 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.355 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.355 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed5b15a5-df95-4ee3-bf8b-8f558937ce03")
+		)
+		(pin "2"
+			(uuid "9de7444e-628f-457e-a9b2-a46e6b7861cb")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW27")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 45.085 44.45 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "112a761d-4458-4dd3-a3b2-a921c165d9be")
+		(property "Reference" "SW4"
+			(at 51.435 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 51.435 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 45.085 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.085 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.085 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbed5a07-2c86-4dbc-ae30-b6b7e98643ee")
+		)
+		(pin "2"
+			(uuid "75355c86-b9e7-4e8e-a008-0877137e540c")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 63.5 44.45 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b4c763a-ec96-4b57-a3b9-d08a7a916da9")
+		(property "Reference" "SW7"
+			(at 69.85 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 69.85 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 63.5 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f99140ba-0530-43c9-8aaa-689274c14137")
+		)
+		(pin "2"
+			(uuid "8042616e-b931-4b46-8efc-97c1eee73e16")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 26.67 66.675 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e4aec2e-8879-4081-806c-023d0a36e932")
+		(property "Reference" "SW2"
+			(at 33.02 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 33.02 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 26.67 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06c9e006-f481-4037-b8c3-0243888ac0e9")
+		)
+		(pin "2"
+			(uuid "75030b67-89f1-4c5a-ad33-453a5513859c")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 173.355 87.63 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24db7259-691e-44b9-a607-61692a51e13c")
+		(property "Reference" "SW28"
+			(at 179.705 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 179.705 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 173.355 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.355 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.355 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c811661-b86c-4a6c-83e4-ceed1c9d9423")
+		)
+		(pin "2"
+			(uuid "abddd22e-657f-4650-8d7d-895f3bcab978")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW28")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 99.06 105.41 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28e7a0ed-27d6-448d-adc1-168be1782940")
+		(property "Reference" "SW17"
+			(at 105.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 105.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 99.06 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db50273f-8a4f-4e4a-ab19-a1398d63f632")
+		)
+		(pin "2"
+			(uuid "47145209-f706-4aed-aa48-dcd0d5b4e074")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 246.38 44.45 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f27e382-5c5c-4ae1-9796-b0508a529192")
+		(property "Reference" "SW40"
+			(at 252.73 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 252.73 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 246.38 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1119abb3-edd1-4c3a-8800-bec981894203")
+		)
+		(pin "2"
+			(uuid "bb5c41c9-0c3f-4ca6-be9e-fba86495c6ff")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW40")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 154.94 87.63 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f690608-1b64-4f49-a3e3-d72a5d15bbe0")
+		(property "Reference" "SW24"
+			(at 161.29 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 161.29 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 154.94 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa77a975-3b7f-4102-983e-dc65a5aabe36")
+		)
+		(pin "2"
+			(uuid "9e4b2cd1-0b49-4607-b3cd-dee8d5d4c369")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW24")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 210.185 87.63 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44cd40b5-c364-40ee-b8fc-f7889eadde61")
+		(property "Reference" "SW36"
+			(at 216.535 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 216.535 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 210.185 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.185 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.185 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37f14dfb-9728-4d86-b196-a5c3f137749e")
+		)
+		(pin "2"
+			(uuid "1407931b-b2a5-4851-9750-2a1cf5392db1")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW36")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 116.205 87.63 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a6fcec3-c5a9-438a-9918-5923f67eee41")
+		(property "Reference" "SW20"
+			(at 122.555 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 122.555 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 116.205 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.205 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.205 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9776eab3-ded2-4cf0-83ad-5126eafe2f07")
+		)
+		(pin "2"
+			(uuid "2fe2e8fe-3d82-482b-b655-ab93af5ca1b7")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 191.77 44.45 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4dad26ef-9d96-45da-b3c1-6440a7e3edca")
+		(property "Reference" "SW30"
+			(at 198.12 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 198.12 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 191.77 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13707633-d105-4a30-8c0d-fb458e6940cf")
+		)
+		(pin "2"
+			(uuid "6564ce9d-c460-4d5b-bded-ec6bccbec260")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW30")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 154.94 105.41 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f719bf1-b470-4f80-91da-449cbdb24d35")
+		(property "Reference" "SW25"
+			(at 161.29 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 161.29 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 154.94 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6717f385-0d09-4bbc-93f4-bf522c242354")
+		)
+		(pin "2"
+			(uuid "4b350d75-3cdd-40f2-b402-4ffe03ae7d36")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW25")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 81.28 66.675 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a11681c-6f9c-4762-8ad8-a933d4b93868")
+		(property "Reference" "SW11"
+			(at 86.995 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 87.63 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 81.28 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56689f3d-dc58-454a-81fc-4e99ebfc2ef4")
+		)
+		(pin "2"
+			(uuid "7ae3a382-b76f-464d-bbcb-41ff9b042cc9")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 26.67 87.63 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a2ec30b-cd73-414a-8b06-6ca763621d1e")
+		(property "Reference" "SW3"
+			(at 33.02 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 33.02 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 26.67 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57bea905-a719-4ab1-a7b3-ec2f19edb972")
+		)
+		(pin "2"
+			(uuid "48f9df0c-f5b2-4841-b124-2d322e4dc368")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 81.28 87.63 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cfbb313-6c3a-4f76-9e01-7d98eef5de04")
+		(property "Reference" "SW12"
+			(at 87.63 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 87.63 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 81.28 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a1b114c-2f34-4f72-98c3-ed40db94f40e")
+		)
+		(pin "2"
+			(uuid "cfb18a2d-ec7a-4f5f-b922-79e4771eac3e")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 210.185 44.45 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63442609-e316-4aa8-9148-1cca8d808ee7")
+		(property "Reference" "SW34"
+			(at 216.535 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 216.535 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 210.185 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.185 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.185 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3033d78-2014-41ab-a2e7-e3e726073c08")
+		)
+		(pin "2"
+			(uuid "3fc22dba-7d1e-40a2-b46e-a35ba3d4bc55")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW34")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 191.77 105.41 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72de5ea4-fee1-41f8-9197-a76a19f7fddf")
+		(property "Reference" "SW33"
+			(at 198.12 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 198.12 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 191.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "292fd40b-fc16-4a8b-9a74-40a65116b20a")
+		)
+		(pin "2"
+			(uuid "a2ea8137-eb07-4229-b02c-f1cd50a09574")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW33")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 99.06 44.45 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7bef3ba8-abb6-4a15-a4db-8a3cab6e251e")
+		(property "Reference" "SW14"
+			(at 105.41 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 105.41 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 99.06 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "178281a8-a95f-4739-b196-d0dab7576e12")
+		)
+		(pin "2"
+			(uuid "b1b8c2ca-af67-4c69-b2cc-f490cfd97e74")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 99.06 87.63 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f56a9fc-a687-4658-9727-9eb0ce1ffa12")
+		(property "Reference" "SW16"
+			(at 105.41 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 105.41 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 99.06 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "057e038b-6adf-4028-a5e4-580a94630c27")
+		)
+		(pin "2"
+			(uuid "54d6d0e4-0aad-40c3-ad86-5a7f6d6c6739")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 210.185 66.675 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f7cb22b-3e86-4370-bb06-be0b21e17db3")
+		(property "Reference" "SW35"
+			(at 216.535 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 216.535 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 210.185 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.185 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.185 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee7b8b40-36a4-4202-86fa-5b9d089f5c1e")
+		)
+		(pin "2"
+			(uuid "4ed6bd4c-7816-43cb-b158-b18d3fb94ab7")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW35")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 173.355 105.41 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85140618-1407-499a-a6e2-54c2b9e36fd4")
+		(property "Reference" "SW29"
+			(at 179.705 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 179.705 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 173.355 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.355 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.355 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90867b8d-baf4-41fb-8a5b-a5449e12ccd5")
+		)
+		(pin "2"
+			(uuid "033f64af-17bb-4b11-974c-7d9bbcf45270")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW29")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 63.5 87.63 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a52d321-da4f-4f38-bf91-b49f7d2735de")
+		(property "Reference" "SW9"
+			(at 69.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 69.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 63.5 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "638d4266-7b5b-465c-9392-8043083c7981")
+		)
+		(pin "2"
+			(uuid "e02cbed2-55ec-42da-9512-0a4344abf32a")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 246.38 87.63 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e0e5741-ec0e-42a5-aace-d3147b915cfc")
+		(property "Reference" "SW42"
+			(at 252.73 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 252.73 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 246.38 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "432ac860-7698-4a0b-b864-cca5aba49804")
+		)
+		(pin "2"
+			(uuid "47a5de4c-36ab-4550-8cce-199ae4124b92")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW42")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 45.085 66.675 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9166ed6c-5c15-4f99-877c-8fa910868eac")
+		(property "Reference" "SW5"
+			(at 51.435 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 51.435 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 45.085 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.085 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.085 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddf48f82-8162-43c1-a1a6-b4f0c303f3db")
+		)
+		(pin "2"
+			(uuid "234a286c-f0b7-4780-875a-4b927a202251")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 154.94 44.45 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9179de33-82e2-4852-bfa3-a2d288fd8080")
+		(property "Reference" "SW22"
+			(at 161.29 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 161.29 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 154.94 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c11c1e26-dbb4-4da2-a06b-261714708a00")
+		)
+		(pin "2"
+			(uuid "6e174e4b-04ee-4bf0-a4d3-e3cd92171587")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW22")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 99.06 66.675 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a23aa8ee-1039-4932-b28d-11f8f28e9210")
+		(property "Reference" "SW15"
+			(at 105.41 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 105.41 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 99.06 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2f94934-af7d-493f-9d79-71b3f336a60b")
+		)
+		(pin "2"
+			(uuid "5e2d75ba-013c-4240-84c0-f72a2c6544a8")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 63.5 66.675 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad2c0b16-8785-4c96-8262-f5246d796b9e")
+		(property "Reference" "SW8"
+			(at 69.85 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 69.85 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 63.5 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "600e81bf-4951-4a7f-8ee5-9986cac5a559")
+		)
+		(pin "2"
+			(uuid "cf1578f6-0324-4ed7-8257-c7d8ae840af5")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 81.28 44.45 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1f28c2f-6dcf-476e-bf22-a0009a2d0ef6")
+		(property "Reference" "SW10"
+			(at 87.63 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 87.63 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 81.28 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "013ed3fc-0c3c-439b-bbd0-c91d3368ba45")
+		)
+		(pin "2"
+			(uuid "30291f6b-8c59-4fbe-a6bd-1149104a80c6")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 45.085 87.63 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2a90324-11ef-4c52-be0c-56330ccb134c")
+		(property "Reference" "SW6"
+			(at 51.435 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 51.435 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 45.085 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.085 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.085 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7df34da4-27e9-4641-8a31-625966770d06")
+		)
+		(pin "2"
+			(uuid "b1a9d520-2ed5-4f9b-b31e-e7fafd52ddd3")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 116.205 44.45 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd0cb32d-ce7a-4277-9bf4-ad8d35d89549")
+		(property "Reference" "SW18"
+			(at 122.555 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 122.555 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 116.205 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.205 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.205 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da83cf06-527a-425e-8a04-fbc402b4a783")
+		)
+		(pin "2"
+			(uuid "253a76aa-f657-4a73-9431-1e147c02b5f2")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 26.67 44.45 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d572ec39-4d09-4685-91a7-58fc1d69eed6")
+		(property "Reference" "SW1"
+			(at 33.02 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 33.02 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 26.67 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09cb276a-2956-428a-91a2-bb7a8174be80")
+		)
+		(pin "2"
+			(uuid "5b65ca21-ea6a-44f5-bcb5-2693a98e33fc")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 81.28 105.41 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e54e582d-c58a-414c-a02c-eb2368065292")
+		(property "Reference" "SW13"
+			(at 87.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 87.63 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 81.28 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e81d2bf-3073-4a57-8210-92d6dc5cae89")
+		)
+		(pin "2"
+			(uuid "57cc2bb0-aeb3-4761-a50d-e9e7a1be0ca2")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 191.77 87.63 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6190df2-a328-4619-a51b-6d0f1fdf486c")
+		(property "Reference" "SW32"
+			(at 198.12 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 198.12 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 191.77 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52a64ff8-b94e-4acd-809a-2d48aa3d6f8e")
+		)
+		(pin "2"
+			(uuid "a79865f5-3d9d-4a5c-b1d7-38682858ccf5")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW32")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 228.6 87.63 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e81e5814-92a8-432c-91f9-e9f7aca612f9")
+		(property "Reference" "SW39"
+			(at 234.95 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 234.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 228.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4500bf85-472c-44b3-a288-b1ed1b79b3ff")
+		)
+		(pin "2"
+			(uuid "d79e453e-80b0-4778-b667-80439cd5eb2a")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW39")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 191.77 66.675 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb41276b-929b-4a22-ac8a-8a9b3dea2fe7")
+		(property "Reference" "SW31"
+			(at 198.12 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 198.12 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 191.77 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1536cb4d-0d1b-44f3-bce9-1416a5b4748a")
+		)
+		(pin "2"
+			(uuid "2b2279b4-4d6f-411c-bace-35f436970166")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW31")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 173.355 44.45 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec15d434-e924-4d05-9665-0a5a97557902")
+		(property "Reference" "SW26"
+			(at 179.705 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 179.705 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 173.355 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.355 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.355 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db11a41b-f894-44ee-9f02-ed94c4eb2368")
+		)
+		(pin "2"
+			(uuid "3b7fb835-e81f-4bea-b142-f851716c78d6")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW26")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 116.205 105.41 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef333e9e-4010-4e2e-b05a-c8f8365bf8f0")
+		(property "Reference" "SW21"
+			(at 122.555 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 122.555 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 116.205 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.205 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.205 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4985fe3-c1aa-4895-8427-ee3c1790cd04")
+		)
+		(pin "2"
+			(uuid "af83a224-9e39-4075-a1fd-ab712e8f00fc")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW21")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 246.38 66.675 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f81bbd07-c4d3-4c28-9494-4c823ed6d89d")
+		(property "Reference" "SW41"
+			(at 252.73 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 252.73 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 246.38 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "194c5c4b-fd8d-4de4-8296-bc7d338ffa83")
+		)
+		(pin "2"
+			(uuid "a354cfd0-9210-4919-b05c-75ca11112007")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW41")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 228.6 66.675 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff84f5d8-eff6-4730-820f-e3f041a59aad")
+		(property "Reference" "SW38"
+			(at 234.95 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG135001S30"
+			(at 234.95 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:KSC_Choc"
+			(at 228.6 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ac78acc-f591-4285-86b3-0a494f5de70f")
+		)
+		(pin "2"
+			(uuid "10d23518-536f-47d2-9706-cb1269bcc0ec")
+		)
+		(instances
+			(project "osprey_rev_a"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06/06d5bcef-cdd2-4b15-b931-2677680653c2"
+					(reference "SW38")
+					(unit 1)
+				)
+			)
+			(project "sheet_matrix"
+				(path "/b7b4651d-e47a-495e-b617-6fcc8aed919f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

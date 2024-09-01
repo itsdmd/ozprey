@@ -1696,7 +1696,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 116.205 66.675 0)
 			(effects
 				(font
@@ -1770,7 +1770,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 154.94 66.675 0)
 			(effects
 				(font
@@ -1844,7 +1844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 228.6 44.45 0)
 			(effects
 				(font
@@ -1918,7 +1918,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 173.355 66.675 0)
 			(effects
 				(font
@@ -1994,7 +1994,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 118.11 111.76 0)
 			(effects
 				(font
@@ -2070,7 +2070,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 156.845 50.8 0)
 			(effects
 				(font
@@ -2144,7 +2144,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 45.085 44.45 0)
 			(effects
 				(font
@@ -2220,7 +2220,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 175.26 50.8 0)
 			(effects
 				(font
@@ -2294,7 +2294,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 63.5 44.45 0)
 			(effects
 				(font
@@ -2370,7 +2370,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 100.965 111.76 0)
 			(effects
 				(font
@@ -2444,7 +2444,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 26.67 66.675 0)
 			(effects
 				(font
@@ -2520,7 +2520,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 248.285 93.98 0)
 			(effects
 				(font
@@ -2596,7 +2596,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 212.09 50.8 0)
 			(effects
 				(font
@@ -2670,7 +2670,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 173.355 87.63 0)
 			(effects
 				(font
@@ -2744,7 +2744,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 99.06 105.41 0)
 			(effects
 				(font
@@ -2820,7 +2820,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 100.965 50.8 0)
 			(effects
 				(font
@@ -2894,7 +2894,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 246.38 44.45 0)
 			(effects
 				(font
@@ -2970,7 +2970,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 193.675 50.8 0)
 			(effects
 				(font
@@ -3046,7 +3046,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 65.405 93.98 0)
 			(effects
 				(font
@@ -3122,7 +3122,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 100.965 73.025 0)
 			(effects
 				(font
@@ -3196,7 +3196,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 154.94 87.63 0)
 			(effects
 				(font
@@ -3272,7 +3272,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 28.575 93.98 0)
 			(effects
 				(font
@@ -3346,7 +3346,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 210.185 87.63 0)
 			(effects
 				(font
@@ -3420,7 +3420,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 116.205 87.63 0)
 			(effects
 				(font
@@ -3494,7 +3494,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 191.77 44.45 0)
 			(effects
 				(font
@@ -3568,7 +3568,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 154.94 105.41 0)
 			(effects
 				(font
@@ -3644,7 +3644,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 175.26 73.025 0)
 			(effects
 				(font
@@ -3720,7 +3720,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 28.575 50.8 0)
 			(effects
 				(font
@@ -3796,7 +3796,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 46.99 93.98 0)
 			(effects
 				(font
@@ -3870,7 +3870,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 81.28 66.675 0)
 			(effects
 				(font
@@ -3944,7 +3944,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 26.67 87.63 0)
 			(effects
 				(font
@@ -4018,7 +4018,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 81.28 87.63 0)
 			(effects
 				(font
@@ -4094,7 +4094,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 118.11 93.98 0)
 			(effects
 				(font
@@ -4168,7 +4168,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 210.185 44.45 0)
 			(effects
 				(font
@@ -4244,7 +4244,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 118.11 73.025 0)
 			(effects
 				(font
@@ -4320,7 +4320,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 46.99 73.025 0)
 			(effects
 				(font
@@ -4396,7 +4396,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 118.11 50.8 0)
 			(effects
 				(font
@@ -4470,7 +4470,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 191.77 105.41 0)
 			(effects
 				(font
@@ -4546,7 +4546,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 193.675 73.025 0)
 			(effects
 				(font
@@ -4622,7 +4622,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 83.185 50.8 0)
 			(effects
 				(font
@@ -4696,7 +4696,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 99.06 44.45 0)
 			(effects
 				(font
@@ -4770,7 +4770,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 99.06 87.63 0)
 			(effects
 				(font
@@ -4844,7 +4844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 210.185 66.675 0)
 			(effects
 				(font
@@ -4920,7 +4920,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 193.675 93.98 0)
 			(effects
 				(font
@@ -4994,7 +4994,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 173.355 105.41 0)
 			(effects
 				(font
@@ -5070,7 +5070,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 65.405 50.8 0)
 			(effects
 				(font
@@ -5144,7 +5144,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 63.5 87.63 0)
 			(effects
 				(font
@@ -5219,7 +5219,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 230.505 93.98 0)
 			(effects
 				(font
@@ -5293,7 +5293,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 246.38 87.63 0)
 			(effects
 				(font
@@ -5367,7 +5367,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 45.085 66.675 0)
 			(effects
 				(font
@@ -5441,7 +5441,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 154.94 44.45 0)
 			(effects
 				(font
@@ -5517,7 +5517,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 65.405 73.025 0)
 			(effects
 				(font
@@ -5592,7 +5592,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 230.505 73.025 0)
 			(effects
 				(font
@@ -5667,7 +5667,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 83.185 93.98 0)
 			(effects
 				(font
@@ -5741,7 +5741,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 99.06 66.675 0)
 			(effects
 				(font
@@ -5816,7 +5816,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 83.185 111.76 0)
 			(effects
 				(font
@@ -5892,7 +5892,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 83.185 73.025 0)
 			(effects
 				(font
@@ -5966,7 +5966,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 63.5 66.675 0)
 			(effects
 				(font
@@ -6040,7 +6040,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 81.28 44.45 0)
 			(effects
 				(font
@@ -6114,7 +6114,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 45.085 87.63 0)
 			(effects
 				(font
@@ -6190,7 +6190,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 46.99 50.8 0)
 			(effects
 				(font
@@ -6266,7 +6266,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 212.09 93.98 0)
 			(effects
 				(font
@@ -6340,7 +6340,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 116.205 44.45 0)
 			(effects
 				(font
@@ -6416,7 +6416,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 212.09 73.025 0)
 			(effects
 				(font
@@ -6492,7 +6492,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 156.845 93.98 0)
 			(effects
 				(font
@@ -6566,7 +6566,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 26.67 44.45 0)
 			(effects
 				(font
@@ -6642,7 +6642,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 175.26 93.98 0)
 			(effects
 				(font
@@ -6718,7 +6718,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 156.845 111.76 0)
 			(effects
 				(font
@@ -6793,7 +6793,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 28.575 73.025 0)
 			(effects
 				(font
@@ -6869,7 +6869,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 193.675 111.76 0)
 			(effects
 				(font
@@ -6943,7 +6943,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 81.28 105.41 0)
 			(effects
 				(font
@@ -7017,7 +7017,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 191.77 87.63 0)
 			(effects
 				(font
@@ -7093,7 +7093,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 248.285 50.8 0)
 			(effects
 				(font
@@ -7168,7 +7168,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 230.505 50.8 0)
 			(effects
 				(font
@@ -7244,7 +7244,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 156.845 73.025 0)
 			(effects
 				(font
@@ -7318,7 +7318,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 228.6 87.63 0)
 			(effects
 				(font
@@ -7392,7 +7392,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 191.77 66.675 0)
 			(effects
 				(font
@@ -7468,7 +7468,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 248.285 73.025 0)
 			(effects
 				(font
@@ -7542,7 +7542,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 173.355 44.45 0)
 			(effects
 				(font
@@ -7616,7 +7616,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 116.205 105.41 0)
 			(effects
 				(font
@@ -7692,7 +7692,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 175.26 111.76 0)
 			(effects
 				(font
@@ -7767,7 +7767,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "itsdmd:D_SOD-123"
 			(at 100.965 93.98 0)
 			(effects
 				(font
@@ -7841,7 +7841,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 246.38 66.675 0)
 			(effects
 				(font
@@ -7915,7 +7915,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:Kailh_socket_Choc_optional"
+		(property "Footprint" "itsdmd:KS_Socket_Choc"
 			(at 228.6 66.675 0)
 			(effects
 				(font

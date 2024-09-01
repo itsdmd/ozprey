@@ -1,0 +1,6 @@
+[submodule "ozprey_pcb/itsdmd.pretty"]
+	path = ozprey_pcb/itsdmd.pretty
+	url = https://github.com/itsdmd/itsdmd.pretty
+[submodule "ozprey_plate/itsdmd.pretty"]
+	path = ozprey_plate/itsdmd.pretty
+	url = https://github.com/itsdmd/itsdmd.pretty

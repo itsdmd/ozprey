@@ -1,0 +1,95 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "86a516b3-939b-48ee-9a25-d0111c577d06")
+	(paper "A4")
+	(title_block
+		(title "Ozprey")
+		(date "2024-08-25")
+		(rev "1.0")
+		(company "itsdmd")
+	)
+	(lib_symbols)
+	(sheet
+		(at 187.325 24.765)
+		(size 38.1 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "06d5bcef-cdd2-4b15-b931-2677680653c2")
+		(property "Sheetname" "Matrix"
+			(at 187.325 24.0534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sheet_matrix.kicad_sch"
+			(at 187.325 50.7496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ozprey"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 59.69)
+		(size 38.1 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "52444830-ed29-4b2d-90bf-e085e96e0709")
+		(property "Sheetname" "MountingHoles"
+			(at 187.96 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 187.96 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ozprey"
+				(path "/86a516b3-939b-48ee-9a25-d0111c577d06"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
