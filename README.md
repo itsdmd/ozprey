@@ -6,7 +6,6 @@
 
 ## Changes compared to the original Osprey
 
--   Support **both hotswap and soldered** Choc v1 switches.
 -   Remove cutout under MCU to allow more flexible PCB trace routing.
 -   Remove battery holder cutout, replace onboard battery connector socket with battery connector pads.
     -   These changes were made since I want to use a large Li-Po battery placed under the PCB.
